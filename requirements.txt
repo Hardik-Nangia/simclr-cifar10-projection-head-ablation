@@ -1,0 +1,17 @@
+# Third-party packages imported by notebooks/SimCLR_CIFAR10_Colab.ipynb
+# (stdlib modules used: os, time, math, random, json -- nothing to install)
+#
+# Versions are intentionally NOT pinned. The notebook's saved output shows it
+# ran on Colab with torch 2.11.0+cu130 / torchvision 0.26.0+cu130.
+# torch>=2.3 is a lower bound inferred from the notebook's use of
+# torch.amp.GradScaler("cuda") -- it has not been tested against older versions.
+#
+# On Google Colab these are preinstalled: do NOT run `pip install -r` there.
+# Locally, install the PyTorch build that matches YOUR hardware first
+# (see https://pytorch.org/get-started/locally/), then the remaining packages.
+torch>=2.3
+torchvision
+numpy
+pandas
+matplotlib
+jupyter   # only needed to open the notebook locally

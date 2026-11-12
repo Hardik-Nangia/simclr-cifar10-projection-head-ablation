@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Secrets / local config
+.env
+.env.*
+*.key
+credentials.json
+kaggle.json
+
+# Datasets (CIFAR-10 is downloaded automatically; never commit it)
+data/*
+!data/README.md
+notebooks/data/
+cifar-10-batches-py/
+*.tar.gz
+
+# Model checkpoints / weights
+*.pt
+*.pth
+*.ckpt
+
+# Files the notebook writes to its working directory
+/results_table.csv
+/simclr_results.png
+notebooks/results_table.csv
+notebooks/simclr_results.png
+
+# Generated outputs (keep the folder, not its contents)
+outputs/*
+!outputs/.gitkeep
+
+# Logs / temp
+*.log
+tmp/
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
